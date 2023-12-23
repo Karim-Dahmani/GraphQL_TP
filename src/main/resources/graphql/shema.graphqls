@@ -1,0 +1,15 @@
+
+type Video{
+    id:Float,
+    name:String,
+    url:String,
+    description:String,
+    date_prod:String,
+    creator:Creator
+}
+
+type Creator{
+    id:Float,
+    name:String,
+    email:String
+}
